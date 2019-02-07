@@ -2,7 +2,7 @@
 	"name": "makerlog",
 	"displayName": "MakerLog",
 	"description": "The task log that keeps you shipping every day.",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "CodeCarrot",
 	"author": {
 		"name": "Yashu Mittal"
