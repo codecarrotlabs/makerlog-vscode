@@ -2,6 +2,8 @@
 
 A VS Code Extension for [✅ MakerLog](https://getmakerlog.com/), a place to task log directly from VS Code with a click of a button for makers that gets you more motivated by the more you make.
 
+[![Buy me a coffee](https://img.shields.io/badge/buy%20me%20a-coffee-blue.svg?style=flat&colorA=555555&colorB=FF813F)](https://www.buymeacoffee.com/mittalyashu)
+
 ## Features
 
 * **Logging**: Log directly from VS Code.
