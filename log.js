@@ -12,9 +12,9 @@ const log = () => {
     window.showInformationMessage(content, 'Done', 'To Do').then(status => {
       console.log(status);
       let contentStatus;
-      if (status = 'Done') {
+      if (status === 'Done') {
         contentStatus = true;
-      } else if (status = 'To Do') {
+      } else if (status === 'To Do') {
         contentStatus = false;
       }
       console.log(contentStatus);
