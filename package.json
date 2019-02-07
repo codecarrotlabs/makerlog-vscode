@@ -1,0 +1,79 @@
+{
+	"name": "makerlog",
+	"displayName": "MakerLog",
+	"description": "The task log that keeps you shipping every day.",
+	"version": "0.0.1",
+	"publisher": "CodeCarrot",
+	"author": {
+		"name": "Yashu Mittal"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/codecarrot/makerlog-vscode/issues",
+		"email": "incoming+codecarrot-makerlog-vscode-10736053-issue-@incoming.gitlab.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/codecarrot/makerlog-vscode.git"
+	},
+	"homepage": "https://gitlab.com/codecarrot/makerlog-vscode",
+	"icon": "images/makerlog-logo.png",
+	"preview": true,
+	"engines": {
+		"vscode": "^1.31.0"
+	},
+	"license": "See LICENSE",
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"makerlog",
+		"task logger",
+		"logging"
+	],
+	"galleryBanner": {
+		"color": "#27ae60",
+		"theme": "dark"
+	},
+	"activationEvents": [
+		"onCommand:extension.makerlog"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "extension.makerlog",
+				"title": "Let's start logging",
+				"category": "MakerLog"
+			},
+			{
+				"command": "extension.makerlogInput",
+				"title": "Write something you did today...",
+				"category": "MakerLog"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "MakerLog",
+			"properties": {
+				"makerlog.webhook": {
+					"type": "string",
+					"description": "Go to 'https://getmakerlog.com/apps/webhooks' and generate a webhook."
+				}
+			}
+		}
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28",
+		"eslint": "^5.13.0",
+		"@types/node": "^8.10.25",
+		"@types/mocha": "^2.2.42"
+	},
+	"dependencies": {
+		"xmlhttprequest": "^1.8.0"
+	}
+}
