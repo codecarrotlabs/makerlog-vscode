@@ -14,6 +14,10 @@ Want to learn the usage in detail, [read the wiki](https://gitlab.com/codecarrot
 1. [Add webhook URL](https://gitlab.com/codecarrot/makerlog-vscode/wikis/Usage#paste-the-webhook-url) to the settings.
 2. [Create a task](https://gitlab.com/codecarrot/makerlog-vscode/wikis/Usage#create-a-task) by running command `MakerLog: Let's start logging`.
 
+## Issues
+
+Found a problem or missing feature? Issues and feature requests can be submitted in the [GitLab repository](https://gitlab.com/codecarrot/makerlog-vscode).
+
 ## Contribute
 
 PRs welcome! Please see our [Contribution](https://gitlab.com/codecarrot/makerlog-vscode/wikis/contributing) for more details.
