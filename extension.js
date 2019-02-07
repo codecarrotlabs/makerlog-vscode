@@ -15,11 +15,9 @@ exports.activate = activate;
 
 vscode.commands.registerCommand('extension.makerlogInput', function() {
 	// TODO Improve the error logging functionality
-	// command 'extension.makerlogInput' not found
 	log();
 });
 
-// this method is called when your extension is deactivated
 function deactivate() {}
 
 module.exports = {
